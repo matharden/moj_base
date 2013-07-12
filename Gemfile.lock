@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     moj_base (0.0.1)
-      rails (~> 4.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -98,4 +97,5 @@ DEPENDENCIES
   capybara
   minitest
   moj_base!
+  rails
   sqlite3
