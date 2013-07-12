@@ -7,17 +7,16 @@ require "moj_base/version"
 Gem::Specification.new do |s|
   s.name        = "moj_base"
   s.version     = MojBase::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MojBase."
-  s.description = "TODO: Description of MojBase."
+  s.authors     = ["Mat Harden"]
+  s.email       = ["matharden@gmail.com"]
+  s.homepage    = "https://matharden.github.io/moj_base"
+  s.summary     = "MojBase are tools for Rails projects"
+  s.description = "CSS, JavaScript assets and HTML snippets"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails"
-
+  s.add_development_dependency "rails"
   s.add_development_dependency "sqlite3"
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'capybara'
