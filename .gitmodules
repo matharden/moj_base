@@ -1,3 +1,0 @@
-[submodule "app/assets"]
-	path = app/assets
-	url = https://github.com/ministryofjustice/moj_toolkit.git
